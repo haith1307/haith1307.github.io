@@ -1,0 +1,109 @@
+body{
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.profile-pic{
+    padding: 20px;
+    width: 400px;
+    float: left;
+}
+
+h1, .intro-text{
+    padding:2px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.influence, .experience{
+    color: white;
+    background-color: black;
+}
+
+
+.intro-text{
+    font-size: 1.25rem;
+}
+
+.recipe-card{
+    color: white;
+    background-color: black;
+}
+
+.ingredient-card, .instruction-card{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding:10px;
+    margin-left: 30px;
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+li{
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.recipe-dashboard{
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    
+}
+
+
+img{
+    width:400px;
+    float: right;
+}
+
+.recipe-card{
+    margin: 50px;
+    padding: 20px;
+    
+}
+
+.recipe-dashboard{
+    font-size: 1.25rem;
+}
+
+.dish-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+    font-style: oblique;
+}
+
+.dish-name{
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    padding:5px;
+}
