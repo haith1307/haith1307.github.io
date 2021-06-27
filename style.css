@@ -1,0 +1,94 @@
+header{
+    font-size: 2.5rem;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #094183;
+    color: white;
+
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #012a58;
+    color: white;
+    text-align: center;
+    text-emphasis-color: white;
+    width: 100%;
+}
+
+.navbar-text{
+    color: white;
+    margin: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    border-width: thick;
+    width: 49%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile{
+    font-size: 1.55rem;
+
+    display: flex;
+    border-width: thick;
+    align-items: center;
+    width: 49%;
+    float: right !important;
+    height: 300px;
+}
+
+.bio{
+    border-width: thick;
+}
+
+a{
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.section{
+    display: inline-block;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.section-body{
+    margin: 0px 50px 0px 50px; 
+
+}
+
+.time{
+    width: 19%;
+    float: left;
+    height: auto;
+}
+
+.section-title{
+    width: 79%;
+    height: auto;
+    float: right;
+}
