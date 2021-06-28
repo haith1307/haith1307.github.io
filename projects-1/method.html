@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<div class ="topnav">
+	<a class href ="index.html">Home</a>
+	<a class href ="temp_humid_tracker.html">Temperature and Humidity Tracker</a>
+	<a class "active" href="method.html">Method</a>
+	<a class href="control.html">Quality Control</a>
+	<a class href="about.html">About</a>
+</div>
+
+<body>
+<h1>Methods</h1>
+	<p>The project collects temperature and humidity data from DHT11 sensor with Raspberry Pi.</p>
+	<p>Sensor is built to as image below.</p>
+	<p><img src='image/sketch.png', alt='Raspberry Pi GPIO with DHT11', style ='width:500px;height:300px'></p>
+
+	<p>Temperature and humidity data is also obtained from <a href="https://weather.com/weather/today/l/-37.77,144.93?par=google&temp=c">website</a> for comparision purpose.</p>
+	<p>These data is obtained via BeautifulSoup. Data is plotted and pushed to github server</p>
+	<p></p>
+	<p>The procedure is automated via crontab on Raspberry Pi.</p>
+
+</body>
+</html>

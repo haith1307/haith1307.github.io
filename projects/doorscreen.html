@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html>
-
-<div class ="topnav">
-	<a class href ="index.html">Home</a>
-	<a class "active" href ="doorscreen.html">Doorscreen</a>
-</div>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hai Tran</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+	<link rel = "stylesheet" href = "style.css">
+</head>
 
 <body>
+	<header>
+		HAI TRAN
+	</header>
 
-<h1>Doorscreen</h1>
-<p>Programmed by Hai Tran on 2 May 2020</p>
+	<div class="navbar">
+		<a class = "navbar-text" href ="../index.html">Home</a>
+		<a class = "navbar-text"  href ="../projects.html">Projects</a>
+	</div>
 
-<h2>About the Project</h2>
-<p>Project uses Ultrasonic sensor HC-SR04 to measure distance, DHT11 to measure temperature and 16x2 LCD screen to display</p>
+    <div class="section-body"> 
+		<h1>Doorscreen</h1>
+		<div class="underline"></div>
+        <div class="timestamp">Completed on 2 May 2020</div>
 
-
-<h2>Application</h2>
-<p>The project can be placed in front of house or room. The display shows welcome message, shows the room or house temperature and current time. It will only turned on if an object or a person is detected, i.e distance measured by Ultrasonic sensor is below a certain amount (default setting: 10 cm)</p>
-
-<h2>Results</h2>
-<video width="360", height="720" controls>
-	<source src="video/doorscreen.mp4" type="video/mp4">
-</video>
+        <h2>About</h2>
+        <p>Project uses Ultrasonic sensor HC-SR04 to measure distance, DHT11 to measure temperature and 16x2 LCD screen to display</p>
+        
+        
+        <h2>Application</h2>
+        <p>The project can be placed in front of house or room. The display shows welcome message, shows the room or house temperature and current time. It will only turned on if an object or a person is detected, i.e distance measured by Ultrasonic sensor is below a certain threshold (default setting: 10 cm)</p>
+        
+        <h2>Results</h2>
+        <video width="100%", height="720" controls>
+            <source src="video/doorscreen.mp4" type="video/mp4">
+        </video>
+		</div>
+	</div>
 
 </body>
 </html>

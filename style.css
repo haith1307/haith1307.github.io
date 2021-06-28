@@ -126,3 +126,20 @@ a{
     height: auto;
     float: right;
 }
+
+li{
+    margin: 5px 0px 5px 0px;
+}
+
+.grid-container{
+    margin: 10px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px 10px;
+}
+
+.grid-item{
+    text-align: center;
+    background-color: white;
+
+}

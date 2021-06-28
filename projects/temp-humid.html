@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hai Tran</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+	<link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+	<header>
+		HAI TRAN
+	</header>
+
+	<div class="navbar">
+		<a class = "navbar-text" href ="../index.html">Home</a>
+		<a class = "navbar-text"  href ="../projects.html">Projects</a>
+	</div>
+
+    <div class="section-body"> 
+		<h1>Temperature and Humidity Tracker</h1>
+		<div class="underline"></div>
+		<div class="timestamp">Completed on 19 Apr 2020</div>
+
+		<h2>About</h2>
+		<p>Project uses temperature and humidity recorded by DHT11 sensor via Raspberry Pi. This data is then compared with results from the <a href="https://weather.com/weather/today/l/-37.77,144.93?par=google&temp=c">website</a>. Data is recorded in Ascot Vale, VIC 3032, Australia
+
+		<h2>Methods</h2>
+		<p>The project collects temperature and humidity data from DHT11 sensor with Raspberry Pi.</p>
+		<p><img src='img/sketch.png', alt='Raspberry Pi GPIO with DHT11', style ='width:100%'></p>
+
+		<p>Temperature and humidity data is also obtained from <a href="https://weather.com/weather/today/l/-37.77,144.93?par=google&temp=c">website</a> for comparision purpose. These data is obtained via BeautifulSoup. Data is plotted and pushed to github server. The procedure is automated via crontab on Raspberry Pi.</p>
+
+		<h2>Results</h2>
+			<img src='img/temp.png' style="float:left;width:49%">
+
+			<img src='img/humid.png' style="float:right;width:49%"/>
+
+		<h2>Quality Control</h2>
+		<p>The method for controlling the quality is adapted from Statistical Process Control: Control chart for variables. The difference between is calculated. Then upper and lower control limit are calculated. Data falls out of the control limit are considered to be the result of some assignable causes. And it is responsible for manager to take action about them.</p>
+
+		<img src='img/control_temp.png' style="float:left; width:49%;">
+
+		<img src='img/control_humid.png' style="float:right; width: 49%;">
+
+		</div>
+	</div>
+
+</body>
+</html>

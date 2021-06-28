@@ -1,0 +1,153 @@
+header{
+    font-size: 2.5rem;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #094183;
+    color: white;
+
+}
+
+h1{
+    font-size: 1.25rem;
+    color: #094183;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.underline{
+    background-color: #094183;
+    height: 2px;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+}
+
+.navbar{
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #012a58;
+    color: white;
+    text-align: center;
+    text-emphasis-color: white;
+    width: 100%;
+    padding: 5px 0px 5px 0px; 
+}
+
+.navbar-text{
+    color: white;
+    margin: 25px;
+    font-size: 1.25rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    border-width: thick;
+    width: 49%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+
+
+}
+
+@media (max-width: 600px) {
+    .image {
+      width: 100%;
+    }
+  }
+
+.image-profile{
+    padding: 20px 0px 20px 0px;
+}
+.profile{
+    padding: 20px 0px 20px 0px;
+    font-size: 1.5rem;
+    display: flex;
+    border-width: thick;
+    align-items: center;
+    width: 49%;
+    float: right !important;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+    .profile {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+.bio{
+    padding: 10px 0px 10px 0px;
+    font-size: 1.25rem;
+}
+
+a{
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.section{
+    display: inline-block;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.section-body{
+    margin: 20px 50px 20px 50px; 
+
+}
+
+.time{
+    width: 19%;
+    float: left;
+    height: auto;
+}
+
+.section-title{
+    width: 79%;
+    height: auto;
+    float: right;
+}
+
+li{
+    margin: 5px 0px 5px 0px;
+}
+
+.grid-container{
+    margin: 10px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px 10px;
+}
+
+.grid-item{
+    text-align: center;
+    background-color: white;
+
+}
+
+.timestamp{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+p{
+    font-size: 1rem;
+}

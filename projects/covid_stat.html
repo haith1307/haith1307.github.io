@@ -1,36 +1,46 @@
 <!DOCTYPE html>
-<html>
-
-<div class ="topnav">
-	<a class href ="index.html">Home</a>
-	<a class "active" href ="covid_stat.html">CoVID-19 Stats in Australia</a>
-	
-</div>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hai Tran</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+	<link rel = "stylesheet" href = "style.css">
+</head>
 
 <body>
+	<header>
+		HAI TRAN
+	</header>
 
-<h1>CoVID-19 Statistics in Australia</h1>
-<p>Programmed by Hai Tran on 05 July 2020</p>
+	<div class="navbar">
+		<a class = "navbar-text" href ="../index.html">Home</a>
+		<a class = "navbar-text"  href ="../projects.html">Projects</a>
+	</div>
+	<div class="section-body"> 
+		<h1>CoVID-19 Statistics in Australia</h1>
+		<div class="underline"></div>
+		<div class="timestamp">Completed on 05 Jul 2020</div>
+	
+	<h2>About the Project</h2>
+	<p>The project studies the effect of CoVID-19 on economy in Australia. The project uses the number of new cases in Australia, reflecting pandamic's situation and ASX Index, reflecting economy.</p>
+	<p>Data about number of new cases is taken from <a href="https://github.com/owid/covid-19-data/blob/master/public/data/ecdc/new_cases.csv">link</a></p>
+	<p>Data of ASX Index is taken from <a href="https://au.finance.yahoo.com/quote/ASX.AX?p=ASX.AX">link</a></p>
 
-<h2>About the Project</h2>
-<p>The project studies the effect of CoVID-19 on economy in Australia. The project uses the number of new cases in Australia, reflecting pandamic's situation and ASX Index, reflecting economy.</p>
-<p>Data about number of new cases is taken from <a href="https://github.com/owid/covid-19-data/blob/master/public/data/ecdc/new_cases.csv">link</a></p>
-<p>Data of ASX Index is taken from <a href="https://au.finance.yahoo.com/quote/ASX.AX?p=ASX.AX">link</a></p>
+	<h2>Results</h2>
+	<embed type="text/html" src="html/covid_stat.html" width="1600" height="800">
 
-<h2>Results</h2>
-<embed type="text/html" src="html/covid_stat.html" width="1600" height="800">
+	<h2>Analysis</h2>
+		<ul>
+			<li>Economy starts decreasing significantly at the beginning of the pandemic</li>
+			<li>Economy tends to recover as the number of cases reduces</li>
+			<li>A negative correlation between ASX Index and the number of new cases per day can be observed. Pandemic has a dramatic effect on the economy</li>
+		</ul>
 
-<h2>Analysis</h2>
-<ul>
-	<li>Economy starts decreasing significantly at the beginning of the pandemic</li>
-	<li>Economy tends to recover as the number of cases reduces</li>
-	<li>A negative correlation between ASX Index and the number of new cases per day can be observed. Pandemic has a dramatic effect on the economy</li>
-
-
-
-
-
-
-
+	</div>
 </body>
 </html>
